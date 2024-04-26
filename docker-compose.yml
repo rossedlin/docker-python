@@ -1,0 +1,8 @@
+services:
+  web:
+    image: rossedlin/python:latest
+    container_name: web
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www
